@@ -1,0 +1,41 @@
+(1) true || !!false && true != false
+	(true || ((!(!false)) && (true != false)))
+	
+(2) ~(1 << + 2 & 1 + - (5 & 3))
+	~(1 << + 2 & 1 + - (5 & 3))
+	
+(3) 1 + 6 * 3 % 10 / 5 + 3 + 7 + 10 / 100 / 10
+	(((1 + (((6 * 3) % 10) / 5)) + 3) + 7) + ((10 / 100) / 10)
+	
+(4) Math.sin((1 + 1) * Math.PI)
+	Math.sin((1 + 1) * Math.PI)
+	
+(b)
+1. Method
+	A method is a collection of statements that will be executed when the method is called.
+	Exchange of information: - The caller can pass arguments to the method.
+							 - When the method returns it can also return information.
+	
+2. Parameter
+	The variables declared in the declaration of the method are called parameters or formal parameters.
+	
+3. Type
+	The type of a method defines what kind of value the method returns.
+	A method that doesn't return anything gets the type "void".
+	The type of a variable defines what kind of value the variable can hold.
+	
+4. Argument
+	Also known as actual parameters.
+	Kind of the "opposite" of parameters as arguments are the expressions passed to the method by the caller.
+	
+5. Scope
+	The scope controls the access/visibility to/of a method or variable.
+	"private": method visible to its class
+	"public": visible to everyone
+	"protected": visible to its class, package and subclasses
+	without keyword: visible to its class and package
+	
+6. Control flow statement
+	There are two different types Control flow statements:
+		- conditional statements: execute other statements after checking something
+		- iterative statements: execute other statements a number of times depending on a condition

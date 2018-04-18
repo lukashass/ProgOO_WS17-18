@@ -1,0 +1,19 @@
+1. Method overloading
+	Declaring a method with the same name twice but with different parameters is called method overloading.
+	
+2. Method overriding
+	Declaring a method that already exists in a superclass with the same name and parameters.
+	
+3. Predicate method
+	A method that returns a boolean value. Naming convention: is*()
+	
+4. Instance variable
+	Instance variables are declared within a class but outside of methods. They are stored on the heap and there is one for every object.
+	Also called fields as in part a of this assignment.
+	
+5. Access modifier
+	Access modifiers are the keywords public, private and protected and (no keyword).
+	"private": method visible to its class
+	"public": visible to everyone
+	"protected": visible to its class, package and subclasses
+	without keyword: visible to its class and package

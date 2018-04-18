@@ -1,0 +1,9 @@
+1.
+The variable with the name "n1" is of the type "int" and its value is the expression "readInt("Enter n1: ")".
+The variable with the name "n2" is of the type "int" and its value is the expression "readInt("Enter n2: ")".
+The variable with the name "n3" is of the type "int" and its value is the expression "readInt("Enter n3: ")".
+The variable with the name "total" is of the type "int" and its value is the expression "n1 + n2 + n3".
+
+2.
+The program mentions the class "Add3Integers" which is a subclass of "ConsoleProgram".
+The program mentions the class "ConsoleProgram" which is a superclass of "Add3Integers".

@@ -1,0 +1,19 @@
+//MyGrammar as four-tuple
+
+	//DecimalNumeral
+	
+		G'=(V',Σ',R',S')
+		
+	G = ( V ∪ V',Σ ∪ Σ',R ∪ R',S ) with
+		
+		V = { S, P , S' }
+		
+		Σ = { +, * }
+		
+		R = { S -> S + P, S -> P * S', S -> S', P -> P * S', P -> S' }
+		
+//MyGrammar as EBNF
+
+	S ::= S + P | P * X | X
+	
+	P ::= P * DecimalNumeral | DecimalNumeral

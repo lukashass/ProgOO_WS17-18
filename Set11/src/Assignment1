@@ -1,0 +1,10 @@
+1. O(2^n)	For each n the method gets executed twice.
+
+2. O(n)		One for-loop running towards n. The code inside gets executed once per n.
+
+3. O(n^2)	Two nested for-loops. Outer loop runs n (= arr.length) times (actually n-2 times, but a big "n" makes the 2 unnecessary).
+			Inner loop runs up to n times.
+			
+4. O(n^2)	Two nested for-loops. Both running towards n (= hay.length). Worst case being big hay.length and small needle.length.
+
+5. O(log n)	n being hay.length.

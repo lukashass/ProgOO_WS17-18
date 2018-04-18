@@ -1,0 +1,31 @@
+Recursion
+
+	To solve a problem with recursion the problem has to be split up into smaller problems of the same form.
+	
+Generic class
+
+	The objects of a generic class can be of any type. The type is a parameter of a generic class.
+	
+Wrapper class
+
+	There a wrapper classes for primitive data types, because for example ArrayLists can only work with objects.
+	
+Boxing and unboxing
+
+	Java takes a primitive data type and automatically converts it to its corresponding wrapper class. Same in reverse.
+	
+Garbage collection
+
+	Garbage collection frees up unused (nothing is pointing at it) memory in heap.
+	
+Heap
+
+	The heap is a part of the memory where objects are stored.
+	
+Stack
+
+	The stack is where local variables of method calls are stored.
+	
+Object reference
+
+	Object variables store a reference to the address on the heap where the object is actually stored.

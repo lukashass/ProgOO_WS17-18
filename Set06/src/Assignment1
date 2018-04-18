@@ -1,0 +1,57 @@
+super
+	reference to constructor of superclass
+	
+	public FilledX(int x){
+		super(x);
+		setFilled(true);
+	}
+	
+this
+	reference to the current object
+	
+	public CreateX(int x){
+		this.x = x;
+	}
+	
+static
+	makes a variable a class variable -> one per class and the same for all instances
+	static methods are associated with their class / don't have a receiving object
+	
+	declaration of class variable: static final double PI = 3.14;
+	call of static method: Math.sqrt(4);
+	
+null
+	reference to nothing (default "value" of object variables)
+	
+	GRect rect = new GRect(x, y);
+	GRect noRect = null;
+	
+Local variable
+	variable declared in method
+	
+	public void useLess() {
+		int drugs = 1337;
+	}
+	
+Class variable
+	variable declared inside of class but outside of method with static modifier
+	
+	public class Example {
+		static int classVariable;
+		
+		public void run() {
+		}
+	}
+	
+Constructor
+	special method to create objects of a class
+	
+	public ComplexNumber() {
+		re = 0.0;
+		im = 0.0;
+	}
+	
+Array
+	a collection of variables which is homogeneous and ordered
+	
+	int[] myArray = new int[3];

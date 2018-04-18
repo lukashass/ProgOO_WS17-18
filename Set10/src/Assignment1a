@@ -1,0 +1,23 @@
+Enumeration
+
+	Enumerations are types (or special kinds of classes) with a countable set of predefined elements.
+	
+Assertion
+
+	Assertions are essentially debugging statements that show an error when they aren't met.
+	They should only be used internally for private methods and not for public methods, because thats what throwing exceptions is for.
+	Since they are not enabled by default they don't take away any performance when left in the code and so improve maintainability.
+	
+Precondition / Postcondition
+
+	Check arguments before computation. / Check return value after computations.
+
+Invariant
+
+	Something that is going to be true. But since we have assertions now we can check anyway.
+
+Method / object decomposition
+
+	By decomposing a difficult task into smaller, simpler tasks programming becomes less complex.
+	Method decomposition lets you execute tasks multiple times without twice the code.
+	With object decomposition you can access the resulting object of a previously run task and do something to it.
